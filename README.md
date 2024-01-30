@@ -1,6 +1,8 @@
 # How to deploy .NET8 WebAPI to Azure Container App
 
-See these youtube videos for more detailed info: https://www.youtube.com/watch?v=jfYJEcDOOkI&list=PLBmBUIbhAfd-eLB-XGxxhC68MNVl3I-Gi
+See these youtube videos for more detailed info: 
+
+https://www.youtube.com/watch?v=jfYJEcDOOkI&list=PLBmBUIbhAfd-eLB-XGxxhC68MNVl3I-Gi
 
 ## 1. Get started with Azure Container App (deploy a sample Hello app)
 
