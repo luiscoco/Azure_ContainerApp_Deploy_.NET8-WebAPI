@@ -130,7 +130,14 @@ We select the **Region**
 
 We create the **Container Apps Environment**
 
-![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/09a993be-cc26-4faf-837d-de76813770a6)
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/c426bce9-ac68-47da-a673-8ce2fa81ae7e)
+
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/058abeef-f99a-434e-80e4-42dd60bffe20)
+
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/78ab166a-dd59-4139-90bb-a4764bb05a24)
+
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/5c025a56-37fa-4ca9-a97c-6e3eb6646f99)
+
 
 
 ## 3. Deploy .NET8 WebAPI to Azure Container App (with Azure CLI commands)
