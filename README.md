@@ -273,7 +273,10 @@ This command will output the FQDN (Fully Qualified Domain Name) of your app, whi
 If you need to update the app later with a new image version:
 
 ```
-az containerapp update --name mywebapi --resource-group myResourceGroup --image myRegistry.azurecr.io/mywebapi:v2
+az containerapp update ^
+  --name mywebapi ^
+  --resource-group myResourceGroup ^
+  --image myfirstregistry1974.azurecr.io/mywebapi:v2
 ```
 
 Replace v2 with your new image tag.
