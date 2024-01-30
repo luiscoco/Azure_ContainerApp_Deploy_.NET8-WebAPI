@@ -76,6 +76,7 @@ az acr credential show --name myfirstregistry1974 --resource-group myRG
 
 For example these can be the **ACR admin user credentials**
 
+```json
 {
   "passwords": [
     {
@@ -89,6 +90,7 @@ For example these can be the **ACR admin user credentials**
   ],
   "username": "myfirstregistry1974"
 }
+```
 
 We rename the Docker image including the **Azure ACR name**
 
