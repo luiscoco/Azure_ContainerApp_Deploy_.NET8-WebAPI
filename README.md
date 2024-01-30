@@ -66,6 +66,8 @@ We **create** the **Azure Container Registry ACR** in Azure Portal
 
 ![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/4b0204c1-3dde-4fe6-95b8-fc379b314649)
 
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/45657460-6a06-4400-b06c-886d21589566)
+
 We can see in the list the new ACR
 
 ![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/352c21a4-afb7-443e-81ef-41bca6988952)
