@@ -56,9 +56,19 @@ docker build -t mywebapi .
 
 We **create** the **Azure Container Registry ACR** in Azure Portal
 
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/e6ac208f-49a6-4ed1-9fd4-d3cfeb1fe2d6)
+
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/a4ddf5ec-df5b-4f0c-a215-6b2c8220c9a3)
+
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/6babbb74-ee85-4f43-b122-af555c10410f)
+
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/ebe7ebb6-a6a3-4eb0-9130-ad91513850df)
+
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/4b0204c1-3dde-4fe6-95b8-fc379b314649)
+
+We can see in the list the new ACR
+
 ![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/352c21a4-afb7-443e-81ef-41bca6988952)
-
-
 
 We select the **Azure Subscription**
 
