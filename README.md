@@ -178,7 +178,14 @@ Replace myEnvironment with your desired environment name.
 ### 3.6. Deploy the Container App
 
 ```
-az containerapp create --name mywebapi --resource-group myResourceGroup --environment myEnvironment --image myRegistry.azurecr.io/mywebapi:v1 --target-port 80 --ingress external --query configuration.ingress.fqdn
+az containerapp create ^
+  --name mywebapi ^
+  --resource-group myResourceGroup ^
+  --environment myEnvironment ^
+  --image myfirstregistry1974.azurecr.io/mywebapi:v1 ^
+  --target-port 80 ^
+  --ingress external ^
+  --query configuration.ingress.fqdn
 ```
 
 Replace mywebapi with your app name.
