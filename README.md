@@ -72,41 +72,9 @@ We can see in the list the new ACR
 
 ![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/352c21a4-afb7-443e-81ef-41bca6988952)
 
-We select the **Azure Subscription**
+We enable the Admin User in the Azure ACR, and we copy the username and password for docker login
 
-```
-az account set --subscription 99888cc6-c635-4ebd-b0ac-1be1dace0089
-```
-
-We **enable the Admin user**
-
-```
-az acr update --name myfirstregistry1974.azurecr.io --admin-enabled true --resource-group myRG
-```
-
-We **show** the admin user **credentials**
-
-```
-az acr credential show --name myfirstregistry1974 --resource-group myRG
-```
-
-For example these can be the **ACR admin user credentials**
-
-```json
-{
-  "passwords": [
-    {
-      "name": "password",
-      "value": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-    },
-    {
-      "name": "password2",
-      "value": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-    }
-  ],
-  "username": "myfirstregistry1974"
-}
-```
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/b78e7fd7-1908-4dfd-9374-20d1e85dc691)
 
 We rename the Docker image including the **Azure ACR name**
 
@@ -154,8 +122,6 @@ We create the **Container Apps Environment**
 
 ![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/5c025a56-37fa-4ca9-a97c-6e3eb6646f99)
 
-
-
 ## 3. Deploy .NET8 WebAPI to Azure Container App (with Azure CLI commands)
 
 Deploying a .NET Web API to **Azure Container App** using **Azure CLI** involves several steps
@@ -191,6 +157,42 @@ az acr create --resource-group myResourceGroup --name myRegistry --sku Basic
 
 Replace myRegistry with your desired registry name
 
+We select the **Azure Subscription**
+
+```
+az account set --subscription 99888cc6-c635-4ebd-b0ac-1be1dace0089
+```
+
+We **enable the Admin user**
+
+```
+az acr update --name myfirstregistry1974.azurecr.io --admin-enabled true --resource-group myRG
+```
+
+We **show** the admin user **credentials**
+
+```
+az acr credential show --name myfirstregistry1974 --resource-group myRG
+```
+
+For example these can be the **ACR admin user credentials**
+
+```json
+{
+  "passwords": [
+    {
+      "name": "password",
+      "value": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    },
+    {
+      "name": "password2",
+      "value": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    }
+  ],
+  "username": "myfirstregistry1974"
+}
+```
+
 ### 3.3. Log in to ACR
 
 ```
@@ -198,6 +200,18 @@ az acr login --name myRegistry
 ```
 
 ### 3.4. Push Your Docker Image to ACR
+
+We **log in** to ACR with **Docker**
+
+```
+docker login myfirstregistry1974.azurecr.io --username myfirstregistry1974 --password XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
+
+We **push** the Docker image to Azure ACR
+
+```
+docker push myfirstregistry1974.azurecr.io/mywebapi:v1
+```
 
 Assuming you have already tagged your image:
 
