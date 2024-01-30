@@ -1,5 +1,7 @@
 # How to deploy .NET8 WebAPI to Azure Container App
 
+See these youtube videos for more detailed info: https://www.youtube.com/watch?v=jfYJEcDOOkI&list=PLBmBUIbhAfd-eLB-XGxxhC68MNVl3I-Gi
+
 ## 1. Get started with Azure Container App
 
 We log in to Azure Portal and we create a new resource (a new **Container App**)
@@ -31,6 +33,19 @@ Let's review the final **basic data**
 ![image](https://github.com/luiscoco/Azure_ContainerApps_Deploy_.NET_8_Web_API/assets/32194879/398a2b25-68a6-4ea7-bfe5-bde76bf29311)
 
 ![image](https://github.com/luiscoco/Azure_ContainerApps_Deploy_.NET_8_Web_API/assets/32194879/173edfdd-ec43-4d49-86b8-c7bd6781ba20)
+
+We have create these services: **Container Apps Environment**, **Container App**, **Log Analytics workspace**
+
+![image](https://github.com/luiscoco/Azure_ContainerApps_Deploy_.NET_8_Web_API/assets/32194879/e66f4fb0-d084-41e4-bd48-76b99a7e0de2)
+
+We verify the **Azure Container App** endpoint
+
+![image](https://github.com/luiscoco/Azure_ContainerApps_Deploy_.NET_8_Web_API/assets/32194879/25fd2e07-0025-4e0b-ac22-6f5dbc885ebb)
+
+![image](https://github.com/luiscoco/Azure_ContainerApps_Deploy_.NET_8_Web_API/assets/32194879/7f0822df-a6e5-4f45-a54f-92cd90d4647c)
+
+
+
 
 ## 2. Deploy .NET8 WebAPI to Azure Container App (with Azure Portal)
 
