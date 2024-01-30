@@ -42,7 +42,7 @@ We have create these services: **Container Apps Environment**, **Container App**
 
 We verify the **Azure Container App** endpoint
 
-![image](https://github.com/luiscoco/Azure_ContainerApps_Deploy_.NET_8_Web_API/assets/32194879/25fd2e07-0025-4e0b-ac22-6f5dbc885ebb)
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/4fdfc1c7-addb-4379-a47f-312e0120d310)
 
 ![image](https://github.com/luiscoco/Azure_ContainerApps_Deploy_.NET_8_Web_API/assets/32194879/7f0822df-a6e5-4f45-a54f-92cd90d4647c)
 
