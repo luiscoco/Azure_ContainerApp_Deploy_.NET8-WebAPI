@@ -205,7 +205,7 @@ az containerapp create ^
   --resource-group myResourceGroup ^
   --environment myEnvironment ^
   --image myfirstregistry1974.azurecr.io/mywebapi:v1 ^
-  --target-port 80 ^
+  --target-port 8080 ^
   --ingress external ^
   --query configuration.ingress.fqdn
 ```
