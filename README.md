@@ -134,7 +134,7 @@ We select the container, in this case we load the WebAPI container from Azure AC
 
 We can see the new resource in the list
 
-![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/49c94705-c63f-4808-91c8-58376da51ac7)
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/6b484dba-45a9-463b-903d-7be3e67e731a)
 
 We can get the access endpoint: https://myfirstcontainerapp.whitedesert-93889813.westeurope.azurecontainerapps.io
 
