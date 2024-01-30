@@ -106,7 +106,9 @@ az login
 
 We **log in** to ACR with **Docker**
 
-docker login myfirstregistry1974.azurecr.io --username myfirstregistry1974 --password ++NH/WydR+t3kfMkNBBlyxe9/xdKm6prOh5SL4cFvT+ACRBPgu3f
+```
+docker login myfirstregistry1974.azurecr.io --username myfirstregistry1974 --password XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
 
 We **push** the Docker image to Azure ACR
 
