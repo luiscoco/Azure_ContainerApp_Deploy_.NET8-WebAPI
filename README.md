@@ -44,10 +44,75 @@ We verify the **Azure Container App** endpoint
 
 ![image](https://github.com/luiscoco/Azure_ContainerApps_Deploy_.NET_8_Web_API/assets/32194879/7f0822df-a6e5-4f45-a54f-92cd90d4647c)
 
-
-
-
 ## 2. Deploy .NET8 WebAPI to Azure Container App (with Azure Portal)
+
+### 2.1. Create the Azure Container Registry ACR and grant administator permission
+
+We first build the Docker image
+
+```
+docker build -t mywebapi .
+```
+
+We **create** the **Azure Container Registry ACR** in Azure Portal
+
+We select the **Azure Subscription**
+
+```
+az account set --subscription 99888cc6-c635-4ebd-b0ac-1be1dace0089
+```
+
+We **enable the Admin user**
+
+```
+az acr update --name myfirstregistry1974.azurecr.io --admin-enabled true --resource-group myRG
+```
+
+We **show** the admin user **credentials**
+
+```
+az acr credential show --name myfirstregistry1974 --resource-group myRG
+```
+
+For example these can be the **ACR admin user credentials**
+
+{
+  "passwords": [
+    {
+      "name": "password",
+      "value": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    },
+    {
+      "name": "password2",
+      "value": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    }
+  ],
+  "username": "myfirstregistry1974"
+}
+
+We rename the Docker image including the **Azure ACR name**
+
+```
+docker tag mywebapi myfirstregistry1974.azurecr.io/mywebapi:v1
+```
+
+We **log in** to **Azure CLI**
+
+```
+az login
+```
+
+We **log in** to ACR with **Docker**
+
+docker login myfirstregistry1974.azurecr.io --username myfirstregistry1974 --password ++NH/WydR+t3kfMkNBBlyxe9/xdKm6prOh5SL4cFvT+ACRBPgu3f
+
+We **push** the Docker image to Azure ACR
+
+```
+docker push myfirstregistry1974.azurecr.io/mywebapi:v1
+```
+
+### 2.2. 
 
 ## 3. Deploy .NET8 WebAPI to Azure Container App (with Azure CLI commands)
 
