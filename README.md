@@ -132,8 +132,15 @@ We select the container, in this case we load the WebAPI container from Azure AC
 
 We can see the new resource in the list
 
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/49c94705-c63f-4808-91c8-58376da51ac7)
 
+We can get the access endpoint: https://myfirstcontainerapp.whitedesert-93889813.westeurope.azurecontainerapps.io
 
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/4d783083-8099-42c3-9ace-09617be5c8e1)
+
+We verify the application endpoint: https://myfirstcontainerapp.whitedesert-93889813.westeurope.azurecontainerapps.io/weatherforecast
+
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/cb05bf9b-e2a8-4fb1-b202-e047d0580b59)
 
 ## 3. Deploy .NET8 WebAPI to Azure Container App (with Azure CLI commands)
 
