@@ -116,7 +116,22 @@ We **push** the Docker image to Azure ACR
 docker push myfirstregistry1974.azurecr.io/mywebapi:v1
 ```
 
-### 2.2. 
+### 2.2. Create Azure Container App (with Azure Portal)
+
+We log in to Azure portal and we create a new resource (**new Container App**)
+
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/0378be9f-5c5b-4bcb-8856-f61c7c1df217)
+
+We input the **basic data**
+
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/386a2a79-3be8-40d1-804d-df798816a313)
+
+We select the **Region**
+
+We create the **Container Apps Environment**
+
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/09a993be-cc26-4faf-837d-de76813770a6)
+
 
 ## 3. Deploy .NET8 WebAPI to Azure Container App (with Azure CLI commands)
 
