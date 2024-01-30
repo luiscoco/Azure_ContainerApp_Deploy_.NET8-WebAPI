@@ -2,6 +2,22 @@
 
 ## 1. Get started with Azure Container App
 
+We log in to Azure Portal and we create a new resource (a new **Container App**)
+
+![image](https://github.com/luiscoco/Azure_ContainerApps_Deploy_.NET_8_Web_API/assets/32194879/70a88181-20c1-4031-85a8-48fa81e5459c)
+
+We input the basic data 
+
+![image](https://github.com/luiscoco/Azure_ContainerApps_Deploy_.NET_8_Web_API/assets/32194879/2f36450a-a70b-45eb-9445-ba2e014ba262)
+
+We also create a new **Container Apps Environment**
+
+![image](https://github.com/luiscoco/Azure_ContainerApps_Deploy_.NET_8_Web_API/assets/32194879/65036eb4-0aed-4c64-8f7f-4a245246c559)
+
+We input the data required for the new **Container Apps Environment**
+
+
+
 ## 2. Deploy .NET8 WebAPI to Azure Container App (with Azure Portal)
 
 ## 3. Deploy .NET8 WebAPI to Azure Container App (with Azure CLI commands)
