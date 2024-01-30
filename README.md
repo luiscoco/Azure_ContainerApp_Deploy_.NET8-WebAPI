@@ -2,7 +2,7 @@
 
 See these youtube videos for more detailed info: https://www.youtube.com/watch?v=jfYJEcDOOkI&list=PLBmBUIbhAfd-eLB-XGxxhC68MNVl3I-Gi
 
-## 1. Get started with Azure Container App
+## 1. Get started with Azure Container App (deploy a sample Hello app)
 
 We log in to Azure Portal and we create a new resource (a new **Container App**)
 
