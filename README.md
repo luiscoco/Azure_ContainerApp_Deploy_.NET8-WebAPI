@@ -138,7 +138,7 @@ We can see the new resource in the list
 
 We can get the access endpoint: https://myfirstcontainerapp.whitedesert-93889813.westeurope.azurecontainerapps.io
 
-![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/4d783083-8099-42c3-9ace-09617be5c8e1)
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/a9ae1006-96f1-42a3-b763-6ac90cb8cd72)
 
 We verify the application endpoint: https://myfirstcontainerapp.whitedesert-93889813.westeurope.azurecontainerapps.io/weatherforecast
 
