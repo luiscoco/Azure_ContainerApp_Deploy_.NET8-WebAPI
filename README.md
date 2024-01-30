@@ -122,6 +122,19 @@ We create the **Container Apps Environment**
 
 ![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/5c025a56-37fa-4ca9-a97c-6e3eb6646f99)
 
+We select the container, in this case we load the WebAPI container from Azure ACR
+
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/7509caa8-5a45-42f3-9539-52333e82e708)
+
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/dfd72b9e-721a-4e8f-b8b8-c3d987656e28)
+
+![image](https://github.com/luiscoco/Azure_ContainerApp_Deploy_.NET8-WebAPI/assets/32194879/d9a75682-3670-46a1-ab2c-c5e0e747b745)
+
+We can see the new resource in the list
+
+
+
+
 ## 3. Deploy .NET8 WebAPI to Azure Container App (with Azure CLI commands)
 
 Deploying a .NET Web API to **Azure Container App** using **Azure CLI** involves several steps
