@@ -16,7 +16,21 @@ We also create a new **Container Apps Environment**
 
 We input the data required for the new **Container Apps Environment**
 
+![image](https://github.com/luiscoco/Azure_ContainerApps_Deploy_.NET_8_Web_API/assets/32194879/d85416f2-46c9-443f-b6a1-bdeb6c09bd68)
 
+![image](https://github.com/luiscoco/Azure_ContainerApps_Deploy_.NET_8_Web_API/assets/32194879/f699a280-4a16-4709-b10e-84999f05efbc)
+
+![image](https://github.com/luiscoco/Azure_ContainerApps_Deploy_.NET_8_Web_API/assets/32194879/f2b5e4d7-ccde-49d7-b6fe-ea4c81196b10)
+
+Let's review the final **basic data**
+
+![image](https://github.com/luiscoco/Azure_ContainerApps_Deploy_.NET_8_Web_API/assets/32194879/657663eb-d532-4c36-8049-33c60a5fbf63)
+
+![image](https://github.com/luiscoco/Azure_ContainerApps_Deploy_.NET_8_Web_API/assets/32194879/b9e345dd-d916-4960-bfbf-6efe311810c7)
+
+![image](https://github.com/luiscoco/Azure_ContainerApps_Deploy_.NET_8_Web_API/assets/32194879/398a2b25-68a6-4ea7-bfe5-bde76bf29311)
+
+![image](https://github.com/luiscoco/Azure_ContainerApps_Deploy_.NET_8_Web_API/assets/32194879/173edfdd-ec43-4d49-86b8-c7bd6781ba20)
 
 ## 2. Deploy .NET8 WebAPI to Azure Container App (with Azure Portal)
 
